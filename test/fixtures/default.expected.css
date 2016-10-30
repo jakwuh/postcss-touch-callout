@@ -1,0 +1,43 @@
+.a {
+    -webkit-touch-callout: none;
+    user-select: none;
+}
+
+.b {
+    -webkit-touch-callout: default;
+    user-select: auto;
+}
+
+.c {
+    -webkit-touch-callout: default;
+    user-select: text;
+}
+
+.d {
+    -webkit-touch-callout: default;
+    user-select: contain;
+}
+
+.e {
+    -webkit-touch-callout: default;
+    user-select: all;
+}
+
+.f {
+    -webkit-touch-callout: inherit;
+    user-select: inherit;
+}
+
+.g {
+    -webkit-touch-callout: initial;
+    user-select: initial;
+}
+
+.h {
+    -webkit-touch-callout: unset;
+    user-select: unset;
+}
+
+.i {
+    user-select: wrong-prop-value;
+}

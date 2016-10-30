@@ -1,0 +1,7 @@
+{
+    "extends": "defaults",
+    "env": {
+        "browser": true,
+        "node": true
+    }
+}

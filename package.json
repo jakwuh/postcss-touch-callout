@@ -1,0 +1,39 @@
+{
+  "name": "postcss-touch-callout",
+  "version": "5.0.0",
+  "description": "PostCSS plugin to add -touch-callout prefix",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "tests": "node ./test/",
+    "test": "npm run lint && npm run tests",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakwuh/postcss-touch-callout.git"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "postcss-plugin",
+    "touch-callout",
+    "webkit-touch-callout",
+    "user-select",
+    "touch"
+  ],
+  "author": "James Akwuh <jakwuh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakwuh/postcss-touch-callout/issues"
+  },
+  "homepage": "https://github.com/jakwuh/postcss-touch-callout#readme",
+  "devDependencies": {
+    "eslint": "^3.9.0",
+    "eslint-config-defaults": "^9.0.0",
+    "tape": "^4.6.2"
+  },
+  "dependencies": {
+    "postcss": "^5.2.5"
+  }
+}

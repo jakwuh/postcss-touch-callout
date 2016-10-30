@@ -1,0 +1,35 @@
+.a {
+    user-select: none;
+}
+
+.b {
+    user-select: auto;
+}
+
+.c {
+    user-select: text;
+}
+
+.d {
+    user-select: contain;
+}
+
+.e {
+    user-select: all;
+}
+
+.f {
+    user-select: inherit;
+}
+
+.g {
+    user-select: initial;
+}
+
+.h {
+    user-select: unset;
+}
+
+.i {
+    user-select: wrong-prop-value;
+}
