@@ -33,6 +33,9 @@
     "eslint-config-defaults": "^9.0.0",
     "tape": "^4.6.2"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "dependencies": {
     "postcss": "^5.2.5"
   }
